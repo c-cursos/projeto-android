@@ -1,0 +1,47 @@
+ 
+
+ Para criar variáveis dentro do css:
+ :root {
+   --cor01: #fc0fc0;
+ }
+
+ exemplo: h1 {
+   color:var(--cor01);
+ }
+
+
+
+
+ Para importar uma fonte do google
+ @importar .
+ copia o código
+ cola no seu css
+
+ e coloca em baixo @fonte-face {
+   font-family: 'e o nome que vc quiser para sua fonte';
+   src: url(./......)
+ }
+
+
+ /* global seleciona todos elementos do html */
+ * {
+
+ }
+
+ os blocos por padrão, ocupam 100% da tela;
+
+
+ line-height = é o espaçamento entre linhas.
+
+
+
+ Para subir um projeto pronto para o github
+ ====================================================
+
+ Abre o projeto no vs code, abre o terminal
+ 1- git init
+ 2- git remote add origin https://github.com/nomedaorganização/nomedoprojeto.git
+ 3- git add *
+ 4- git commit -m "mensagem"
+ 5- git branch -M main
+ 6- git push -u origin main
